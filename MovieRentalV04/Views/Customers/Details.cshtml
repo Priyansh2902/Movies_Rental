@@ -1,0 +1,14 @@
+﻿@model MovieRentalV04.Models.Customer
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Name</h2>
+
+<li>Membership Type: @Model.MembershipType.Name</li>
+<li>Subscribed To Newsletter: @Model.IsSubscribedToNewsletter</li>
+@if (Model.Birthdate.HasValue)
+{
+    <li>Birthdate: @Model.Birthdate.Value.ToShortDateString()</li>
+}
