@@ -38,7 +38,7 @@ To set up the Online Movies Rental Website locally, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/online-movies-rental.git
+   git clone https://github.com/Priyansh2902/Movies_Rental.git
    ```
 
 2. Install dependencies:
