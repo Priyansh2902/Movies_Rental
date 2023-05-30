@@ -2,7 +2,6 @@
 
 > *A web application built using ASP.NET MVC 5 for an online movies rental website.*
 
-🌐 [Demo](https://www.example.com) | 📘 [Documentation](https://www.example.com/docs)
 
 ## Features
 
